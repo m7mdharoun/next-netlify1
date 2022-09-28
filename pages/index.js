@@ -6,14 +6,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Pastes.io!</title>
+        <meta http-equiv="Refresh" content="0; url='https://pastes.io'" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to Pastes.io!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          You will redirect in 5 seconds to Pastes.io
         </p>
       </main>
 
